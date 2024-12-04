@@ -1,1 +1,1 @@
-# -git-usage-guide
+# git-usage-guide
