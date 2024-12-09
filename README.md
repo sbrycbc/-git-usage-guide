@@ -47,3 +47,31 @@ Send your project to GitHub:
        git branch -M main
        git push -u origin main
 
+### Updating and Pushing Changes
+1 - Stage Changes:
+
+       git add .
+2 - Commit Changes:
+
+       git commit -m "Description of changes"
+3 - Push Changes to GitHub:
+
+       git push
+
+## Common Warnings and Solutions
+#### Warning: LF will be replaced by CRLF
+- This warning indicates that line endings will be converted for compatibility with Windows. To configure Git properly:
+
+       git config --global core.autocrlf true
+  
+#### Error: Remote Already Exists
+- If you encounter this error while adding a remote, remove the existing remote first:
+
+
+       git remote remove origin
+  
+- Then re-add the correct remote:
+
+
+       git remote add origin <GitHub Repo URL>
+
