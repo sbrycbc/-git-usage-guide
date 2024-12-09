@@ -23,3 +23,27 @@ This repository contains a step-by-step guide for using Git and uploading projec
 - To ensure proper line-ending conversions:
 
        git config --global core.autocrlf true
+
+### Uploading a New Project to GitHub
+1. Initialize Git
+Start Git in your project directory and make the first commit:
+
+       git init
+       git add .
+       git commit -m "Initial commit"
+   
+3. Create a New Repository on GitHub
+- Log in to your GitHub account.
+- Click the "+" icon in the top-right corner, then select New repository.
+- Enter a repository name (e.g., my-first-project) and click Create repository.
+4. Add a Remote Repository
+Copy your repository URL from GitHub (e.g., https://github.com/username/my-first-project.git), and link it as a remote:
+
+       git remote add origin https://github.com/username/my-first-project.git
+4. Push Your Code
+Send your project to GitHub:
+
+
+       git branch -M main
+       git push -u origin main
+
