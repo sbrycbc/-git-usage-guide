@@ -75,3 +75,16 @@ Send your project to GitHub:
 
        git remote add origin <GitHub Repo URL>
 
+## Git and GitHub Command Reference
+
+| ** Command **                | ** Description **                                        |
+|------------------------------|----------------------------------------------------------|
+| `git init`                   | Initializes a new Git repository.                        |
+| `git add .`                  | Stages all changes for the next commit.                  |
+| `git commit -m "message"`    | Saves changes to the repository with a message.          |
+| `git branch -M main`         | Renames the main branch to `main`.                       |
+| `git remote add origin URL`  | Links the repository to a remote on GitHub.              |
+| `git push -u origin main`    | Pushes the code to the `main` branch on GitHub.          |
+| `git pull`                   | Pulls the latest changes from the remote repository.     |
+
+
